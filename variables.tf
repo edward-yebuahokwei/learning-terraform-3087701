@@ -5,5 +5,5 @@ variable "instance_type" {
 
 variable "my_public_ip" {
   description = "My personal IP address"
-  default     = "143.159.209.21"
+  default     = "143.159.209.21/0"
 }
